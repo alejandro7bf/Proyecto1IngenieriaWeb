@@ -6,11 +6,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
+<style>
+/*Modifica el tamaño del carrousel y el item evitando que las imagenes mas grandes se salgan del carrousel*/
+  .carousel, .carousel-inner > .item > img {
+  height: 350px;
+  }
 
-<body>
+  body {
+    position:"relative";
+    background-image: url("images/fondo.jpg");
+    background-size: cover;
+  }
+</style>
+
+
+<body >
+
 
 <div>
 <!-- Barra de navegación -->
+    <br/>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -18,54 +33,73 @@
              </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="Hoteles">Link</a></li>
-                <li><a href="Reviews">Link</a></li>
+                <li><a href="Hoteles">Hoteles</a></li>
+                <li><a href="Reviews">Reviews</a></li>
             </ul>
         </div>
     </nav>
 </div>
+
 <!-- Carrusel -->
+<div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
+  <!-- Imagen en cada -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" align="center">
+        <img src="images/1.jpg" class="img-responsive"  >
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          </div>
+      </div>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active" align="center">
-      <img src="1.jpg" alt="Chania" height="500px" width="600px" >
+      <div class="item" align="center">
+        <img src="images/2.jpg" class="img-responsive"  >
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+
+      <div class="item" align="center">
+        <img src="images/3.jpg" class="img-responsive"  >
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          </div>
+      </div>
+
+      <div class="item" align="center">
+        <img src="images/4.jpg" class="img-responsive"  >
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          </div>
+      </div>
+       <div class="item" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9aExlxDDqKM" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
-    <div class="item" align="center">
-      <img src="2.jpg" alt="Chania" height="500px" width="600px" >
-    </div>
-
-    <div class="item" align="center">
-      <img src="3.jpg" alt="Flower" height="500px" width="6000px" >
-    </div>
-
-    <div class="item" align="center">
-      <img src="4.jpg" alt="Flower" height="500px" width="6000px" >
-    </div>
+  <!-- Controles -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-
-
 
 
 
@@ -74,5 +108,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>
