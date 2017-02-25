@@ -1,0 +1,53 @@
+﻿/*Modifica el tamaño del carrousel y el item evitando que las imagenes mas grandes se salgan del carrousel*/
+  .carousel, .carousel-inner > .item > img {
+  height: 350px;
+  }
+
+  body {
+    position:"relative";
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+  }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background:
+  /* color overlay */
+    linear-gradient(
+      rgba(73,155,234,1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
+}
+
+
