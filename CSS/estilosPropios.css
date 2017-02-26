@@ -9,6 +9,14 @@
     background-size: cover;
   }
 
+
+
+  .cajaTexto{
+    color:fff;
+    background-color: rgba(211,211,211,0.3);
+  }
+
+
 html {
   position: relative;
   min-height: 100%;
