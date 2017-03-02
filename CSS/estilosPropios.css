@@ -8,6 +8,11 @@
     background-image: url("../images/fondo.jpg");
     background-size: cover;
   }
+  .linea{
+    background-color: rgba(0,0,0,0.4);
+    height: 120px;
+
+}
 
   #navALESOFT{
     box-shadow: 0px 20px 40px;
@@ -72,3 +77,15 @@ p{
 
 }
 
+
+.agrandar:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.shadow{
+  box-shadow: 8px 8px 10px #999;
+}
