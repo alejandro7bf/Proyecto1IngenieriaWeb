@@ -9,7 +9,10 @@
     background-size: cover;
   }
 
+  #navALESOFT{
+    box-shadow: 0px 20px 40px;
 
+  }
 
   .cajaTexto{
     color:fff;
@@ -26,6 +29,10 @@ body {
   margin-bottom: 60px;
 }
 
+#foto{
+    width: 220px;
+    height: 220px;
+}
 #footer {
   position: absolute;
   bottom: 0;
@@ -58,4 +65,10 @@ body {
   color: #ffffff;
 }
 
+
+p{
+  font-size: 18px;
+
+
+}
 

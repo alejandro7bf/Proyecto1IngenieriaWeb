@@ -2,51 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title >ALSOFT</title>
+  <link rel="shortcut icon" href="images/logo.png">
 
     <link rel="stylesheet" href="CSS/Bootstrap3/css/bootstrap.min.css" >
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="CSS/estilosPropios.css" >
-<link rel="stylesheet" href="CSS/redsocial.css" >
+ <link rel="stylesheet" href="CSS/estilosPropios.css" >
+    <link rel="stylesheet" href="CSS/redsocial.css" >
+    <link rel="stylesheet" href="CSS/styleNav.css" >
 
 </head>
 
 <style>
-    h1{
+.linea{
+    background-color: rgba(0,0,0,0.4);
+    height: 120px;
 
-    }
+}
 </style>
 
 <body >
 
 
-<div>
 <!-- Barra de navegación -->
-    <br/>
-    <nav class="navbar navbar-inverse navbar-fixed-top" >
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="Index.html">ALSOFT</a>
-             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="Index.html">Home</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Portafolio.html">Portafolío</a></li>
-                <li><a href="Equipo.html">Nuestro Equipo</a></li>
-                <li><a href="Contactanos.html">Contáctanos</a></li>
-            </ul>
-        </div>
-    </nav>
+ <div class="container-fluid">
+  <img id="logotipo" href="index.html" class="img-responsive" src="images/logotipo.png" >
+      <ul id="sdt_menu" class="sdt_menu "   >
+        <li class="active">
+          <a href="index.html">
+            <img src="images/logotipo.png" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Home</span>
+              <span class="sdt_descr">Introducción</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="servicios.html">
+            <img src="images/nav1.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Servicios</span>
+              <span class="sdt_descr">Lo que ofrecemos</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="portafolio.html">
+            <img src="images/nav2.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Portafolío</span>
+              <span class="sdt_descr">Nuestro trabajo</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="equipo.html">
+            <img src="images/nav3.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Equipo</span>
+              <span class="sdt_descr">Nuestra familia</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="contactanos.html">
+            <img src="images/nav4.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Contactános</span>
+              <span class="sdt_descr">Donde nos encuentrasS</span>
+            </span>
+          </a>
+        </li>
+
+      </ul>
+      </div>
+
+
+
+
+
 </div>
-<aside id="sticky-social" style="z-index: 1">
+<aside id="sticky-social" style="z-index: 3">
     <ul>
-        <li><a href="#" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
-        <li><a href="#" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
-        <li><a href="#" class="entypo-gplus" target="_blank"><span>Google+</span></a></li>
-        <li><a href="#" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
-        <li><a href="#" class="entypo-instagrem" target="_blank"><span>Instagram</span></a></li>
+        <li><a href="facebook.com" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+        <li><a href="twitter.com" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+        <li><a href="google.com" class="entypo-gplus" target="_blank"><span>Google+</span></a></li>
+        <li><a href="linkedin.com" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
+        <li><a href="instagram.com" class="entypo-instagrem" target="_blank"><span>Instagram</span></a></li>
 
     </ul>
 </aside>
@@ -54,8 +103,6 @@
 <br/>
 <br/>
 
-<br/>
-<h1> Conócenos </h1>
 <br/>
 <br/>
 
@@ -75,15 +122,15 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active" align="center">
         <img src="images/1.jpg" class="img-responsive"  >
-          <div class="carousel-caption" >
-            <h3>Comprometidos</h3>
-            <p>En Alsoft estamos comprometidos con nuestro trabajo</p>
+          <div class="carousel-caption linea"  >
+            <h3 >Comprometidos</h3>
+            <p >En Alsoft estamos comprometidos con nuestro trabajo</p>
           </div>
       </div>
 
       <div class="item" align="center">
         <img src="images/2.jpg" class="img-responsive"  >
-          <div class="carousel-caption">
+          <div class="carousel-caption linea">
             <h3>Responsables</h3>
             <p>La responsabilidad nos acredita como los mejores.</p>
         </div>
@@ -91,7 +138,7 @@
 
       <div class="item" align="center">
         <img src="images/3.jpg" class="img-responsive"  >
-          <div class="carousel-caption" >
+          <div class="carousel-caption linea" >
             <h3>Experiencia</h3>
             <p>Un amplió portafolío en diferentes proyectos</p>
           </div>
@@ -99,13 +146,13 @@
 
       <div class="item" align="center">
         <img src="images/4.jpg" class="img-responsive"  >
-          <div class="carousel-caption">
+          <div class="carousel-caption linea">
             <h3>Últimas Tecnologías</h3>
             <p>Estamos actualizados en las últimas tendencias tecnólogicas y empresariales.S</p>
           </div>
       </div>
        <div class="item" align="center"  style="position:relative;height:0;padding-bottom:75.0%">
-          <iframe src="https://www.youtube.com/embed/HHkJEz_HdTg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:45%;left:0" allowfullscreen "></iframe>
+          <iframe src="https://www.youtube.com/embed/HHkJEz_HdTg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:35%;left:0" allowfullscreen "></iframe>
 
       </div>
     </div>
@@ -123,9 +170,6 @@
 </div>
 
 
-<br/>
-<br/>
-<br/>
 
 
  <!-- Page Content -->
@@ -134,7 +178,7 @@
         <hr>
 
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12 " >
                 <h2 align="center">¿Qué hacemos?</h2>
                 <p align="justify">ALESOFT, es una empresa de software dedicada a proveer soluciones y consultorías tecnológicas a personas, compañías u organizaciones; con nuestros profesionales y experiencia, así como nuestro servicio al cliente, podemos ofrecer servicios de alta calidad sustentados por normas internacionales y por nuestro amplió portafolio en proyectos anteriores.</p>
                 <p align="justify">Nuestros servicios están orientados a potenciar y volver más eficientes diferentes negocios con el fin de que optimicen sus ganancias, con el uso de las mejores prácticas y tecnologías que se están marcando tendencia en el mercado, por esta constante reinvención nos caracterizamos y resaltamos en el mercado.</p>
@@ -147,10 +191,10 @@
         <hr>
 
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 ">
                 <img class="img-circle img-responsive img-center" src="images/tecnologías.png" >
-                <h2 align="center">Tecnologías</h2>
-                <p>Contamos con las últimas tecnologías para el desarrollo, entre ellas está el uso de últimas versiones de diferentes lenguajes de programación, entornos de desarrollo, bases de datos, entre otros que permiten ofrecerle al cliente estar a la vanguardia en la tecnología. </p>
+                <h2 align="justify">Tecnologías</h2>
+                <p align="justify">Contamos con las últimas tecnologías para el desarrollo, entre ellas está el uso de últimas versiones de diferentes lenguajes de programación, entornos de desarrollo, bases de datos, entre otros que permiten ofrecerle al cliente estar a la vanguardia en la tecnología. </p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center" src="images/experiencia.png" alt="">
@@ -160,7 +204,7 @@
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center" src="images/profesionalismo.png" alt="">
                 <h2 align="center">Profesionalismo</h2>
-                <p align="justify">Por otro lado, tenemos profesionales con capacidades acreditadas, en todas las áreas de la organización, por diferentes instituciones de educación superior avalados por el ministerio de educación nacional; como también sometidas a un riguroso proceso de admisión donde evaluamos a la persona integralmente con el fin de garantizar seriedad, responsabilidad y calidad a nuestros clientes.</p>
+                <p align="justify">Por otro lado, tenemos profesionales en todas las áreas de la organización con el fin de garantizar seriedad, responsabilidad y calidad a nuestros clientes; Todos escogidos rigurosamente para resaltar los valores y principios de la organizaciíon.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -222,6 +266,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="CSS/Bootstrap3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+   <script type="text/javascript" src="Scripts/menu.js"></script>
+
 
 
 </body>

@@ -2,38 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-
+    <title>ALESOFT-CONTACTO</title>
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="CSS/Bootstrap3/css/bootstrap.css" >
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="CSS/estilosPropios.css" >
+    <link rel="stylesheet" href="CSS/styleNav.css" >
 </head>
 
 
 
 <body >
 
-
-<div>
 <!-- Barra de navegación -->
-    <br/>
-    <nav class="navbar navbar-inverse navbar-fixed-top" >
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="Index.html">ALSOFT</a>
-             </div>
-            <ul class="nav navbar-nav">
-                <li ><a href="Index.html">Home</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li><a href="Portafolio.html">Portafolío</a></li>
-                <li><a href="Equipo.html">Nuestro Equipo</a></li>
-                <li class="active"><a href="Contactanos.html">Contáctanos</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+ <div class="container-fluid">
+  <img id="logotipo" href="index.html" class="img-responsive" src="images/logotipo.png" >
+      <ul id="sdt_menu" class="sdt_menu "   >
+        <li class="active">
+          <a href="index.html">
+            <img src="images/logotipo.png" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Home</span>
+              <span class="sdt_descr">Introducción</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="servicios.html">
+            <img src="images/nav1.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Servicios</span>
+              <span class="sdt_descr">Lo que ofrecemos</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="portafolio.html">
+            <img src="images/nav2.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Portafolío</span>
+              <span class="sdt_descr">Nuestro trabajo</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="equipo.html">
+            <img src="images/nav3.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Equipo</span>
+              <span class="sdt_descr">Nuestra familia</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="contactanos.html">
+            <img src="images/nav4.jpg" alt=""/>
+            <span class="sdt_active"></span>
+            <span class="sdt_wrap">
+              <span class="sdt_link">Contactános</span>
+              <span class="sdt_descr">Donde nos encuentrasS</span>
+            </span>
+          </a>
+        </li>
+
+      </ul>
+      </div>
+
 <br/>
 <br/>
   <!-- Page Content -->
@@ -61,17 +101,17 @@
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
+                <h3>Detalles del contacto</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    Av. Poblado-calle 16 # 9 - Torre ALSOFT S.A.S <br> Medellín,Colombia.<br>
                 </p>
                 <p><i class="fa fa-phone"></i>
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                    <abbr title="Phone">P</abbr>: (+57) 343543 - (+57) 3534345</p>
                 <p><i class="fa fa-envelope-o"></i>
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">scliente@alfsoft.com </a>
                 </p>
                 <p><i class="fa fa-clock-o"></i>
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">H</abbr>: Lunes - Viernes: 8:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -94,36 +134,36 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <h3>Send us a Message</h3>
+                <h3>Envíanos un mensaje</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
+                            <label>Nombre Completo:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
+                            <label>Teléfono:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
+                            <label>Email :</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Message:</label>
+                            <label>Mensaje:</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
 
@@ -185,6 +225,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="CSS/Bootstrap3/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
+   <script type="text/javascript" src="Scripts/menu.js"></script>
 
 
 </body>
